@@ -1,0 +1,359 @@
+/*-----all------*/
+body{
+  font-family: "ヒラギノ角ゴシック" ,"游ゴシック"
+  , "ヒラギノ角ゴPro", "Hiragino Kaku Gothic", "Yu Gothic" , "Hiragino Kaku Gothic Pro", "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+}
+
+/*-----body----*/
+#container{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 1140px;
+
+}
+
+/*-----head----*/
+.header{
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 1140px;
+  height: 690px;
+  z-index: 1000;
+  background-image:url(../img/first_view_bg.png);
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+.header-navi{
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  top: 30px;
+  left: 40px;
+  width: 1060px;
+  height: 60px;
+  justify-content: space-between;
+}
+#nevilogo{
+  width: 160px;
+}
+#naviicon{
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo{
+  position: absolute;
+  z-index: 10;
+  margin: auto;
+  top: 160px; left: 0; bottom: 0; right: 0;
+}
+.header-icon{
+  position: absolute;
+  z-index: 10;
+  margin: auto;
+  top: 540px; left: 0; bottom: 0; right: 0;
+}
+
+/*-----pickup----*/
+.pickup{
+  position: relative;
+  text-align: center;
+  margin: -125px auto 0;
+  width: 1140px;
+  height: 630px;
+}
+
+/*#pickup_logo{
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  height: 630px;
+  justify-content: space-between;
+}*/
+
+.awa{
+  /*position: absolute;*/
+  text-align: center;
+  /*z-index: 20;
+  top: 0;
+  left: 0;*/
+  width: 1140px;
+  height: 630px;
+  background: url(../img/awa_background.png) 0 0 no-repeat;
+}
+#awainfo{
+  position: absolute;
+  z-index: 21;
+  top: 100px;
+  left: 0;
+}
+.fresh{
+  /*position: absolute;
+  z-index: 18;
+  top: 0;
+  left: 0;*/
+  width: 1140px;
+  height: 630px;
+  background: url(../img/fresh_bg.png) 0 0 no-repeat;
+}
+#freshinfo{
+  position: absolute;
+  z-index: 19;
+  top: 100px;
+  left: 0;
+}
+.nanagogo{
+  /*position: absolute;
+  z-index: 16;
+  top: 0;
+  left: 0;*/
+  width: 1140px;
+  height: 630px;
+  background: url(../img/755_background.png) 0 0 no-repeat;
+}
+
+#nanagogoinfo{
+  position: absolute;
+  z-index: 19;
+  top: 100px;
+  left: 0;
+}
+
+
+.gf{
+  /*position: absolute;
+  z-index: 15;
+  top: 0;
+  left: 0;*/
+  width: 1140px;
+  height: 630px;
+  background: url(../img/gf_background.png) 0 0 no-repeat;
+}
+#gfinfo{
+  position: absolute;
+  z-index: 16;
+  top: 100px;
+  left: 0;
+}
+.dream100{
+  /*position: absolute;
+  z-index: 14;
+  top: 0;
+  left: 0;*/
+  width: 1140px;
+  height: 630px;
+  background: url(../img/dream100bg.png) 0 0 no-repeat;
+}
+#dream100info{
+  position: absolute;
+  z-index: 15;
+  top: 100px;
+  left: 0;
+}
+
+/*-----section----*/
+.section{
+  position: relative;
+  width: 1140px;
+  height: 660px;
+  background: url(../img/section_bg.png) 0 0;
+}
+
+#section_title{
+  position: absolute;
+  top: 45px;
+  left: 68px;
+  margin: 0 auto;
+  width: 1140px;
+  height: 60px;
+}
+
+.ja{
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;*/
+  text-align: left;
+  padding-bottom: 10px;
+  font-family: "ヒラギノ角ゴPro-W6","Hiragino Kaku Gothic Pro W6";
+  font-size: 18px;
+  color: #000000;
+}
+
+.en{
+  /*position: absolute;
+  left: 0;
+  margin: 0 auto;*/
+  text-align: left;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 16px;
+  color: #2d8b3c;
+}
+
+#section_choose{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*-----news----*/
+.news{
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 1140px;
+  height: 880px;
+  background: url(../img/section_bg.png) 0 0;
+}
+
+#line{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1140px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #21612b;
+  overflow: hidden;
+}
+
+#newstitle{
+  position: absolute;
+  top: 50px;
+  left:507.5px;
+  margin: 0 auto;
+}
+#newstitle p{
+  text-align: center;
+}
+
+#infomation{
+  position: absolute;
+  display: flex;
+  top: 160px;
+  padding-top: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.infotop{
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 62px;
+  justify-content: space-between;
+}
+
+
+/*
+.infotop{
+  width: 1100px;
+  margin: 0 auto;
+}
+*/
+
+
+.infodown{
+  position: absolute;
+  display: flex;
+  top: 300px;
+  left: 62px;
+  justify-content: space-between;
+}
+
+#newsicon{
+  position: absolute;
+  top: 780px;
+  left: 480px;
+  right: 480px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+/*-----foot----*/
+.footer{
+  position: relative;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 1140px;
+  height: 220px;
+  background-color: #000000;
+}
+#footer_logo{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 30px;
+  left: 40px;
+  width: 1060px;
+  justify-content: space-between;
+}
+
+#footer_menu{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 100px;
+  height: 60px;
+  justify-content: space-between;
+}
+
+#footer_menu ul{
+  display: flex;
+  list-style-type: none;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  overflow: hidden;
+}
+#footer_menu li{
+  text-align: center;
+  justify-content: space-between;
+  width: 190px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: "ヒラギノ角ゴPro-W3","Hiragino Kaku Gothic Pro W3";
+  font-size: 13px;
+}
+#footer_menu p{
+  color: #ffffff;
+}
+
+#copyright{
+  position: absolute;
+  bottom: 8px;
+  left: 420px;
+  color: #FFFFFF;
+  font-family: "ヒラギノ角ゴPro-W3","Hiragino Kaku Gothic Pro W3";
+  font-size: 11px;
+}
