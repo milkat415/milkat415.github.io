@@ -1,0 +1,81 @@
+/*---1 all---*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" ,"游ゴシック"
+  , "HiraKakuPro-W6", "Hiragino Kaku Gothic", "Yu Gothic" , "Hiragino Mincho Pro", "メイリオ", Helvetica, Arial, Garamond;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  font-size: 120%;
+}
+ul li{
+  list-style-type: none;
+  float: left;
+}
+/*---2 container---*/
+#container{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 1140px;
+  height: auto;
+}
+
+/*---2.1 top-------*/
+#sec-navi{
+  width: auto;
+  height: 30px;
+  padding-left: 870px;
+  padding-right: 50px;
+  background-color: #FFFFFF;
+}
+#sec-navi ul li{
+  list-style-image: url(../img/mini_menu.png);
+  text-align: center;
+  line-height: 30px;
+  color: #000;
+  font-family: "ヒラギノ角ゴ ProN W3";
+  font-size: 10px;
+}
+#sec-navi ul{
+  display: flex;
+  justify-content: space-between;
+}
+#global-navi{
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+  height: 570px;
+  background-image: url(../img/main.jpg);
+}
+#global-navi ul li{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 40px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: "ヒラギノ角ゴシック W4";
+  font-size: 14px;
+}
+#global-navi ul{
+  display: flex;
+  justify-content: space-between;
+}
+/*---2.2 search----------*/
+
+/*---2.3 sellpoint-------*/
+
+/*---2.4 recommend-------*/
+
+/*---2.5 news------------*/
+
+/*---2.6 access----------*/
+
+
+
+/*---3 footer---*/
